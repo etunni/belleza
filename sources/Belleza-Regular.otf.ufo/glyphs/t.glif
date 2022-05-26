@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="t" format="1">
+  <advance width="329"/>
+  <unicode hex="0074"/>
+  <outline>
+    <contour>
+      <point x="230" y="28" type="curve" name="hr00"/>
+      <point x="187" y="28" smooth="yes"/>
+      <point x="175" y="50" smooth="yes"/>
+      <point x="175" y="88" type="curve" smooth="yes"/>
+      <point x="175" y="416" type="line"/>
+      <point x="294" y="416" type="line"/>
+      <point x="294" y="452" type="line"/>
+      <point x="175" y="452" type="line"/>
+      <point x="175" y="549" type="line"/>
+      <point x="91" y="488" type="line"/>
+      <point x="91" y="452" type="line"/>
+      <point x="10" y="452" type="line"/>
+      <point x="10" y="432" type="line"/>
+      <point x="91" y="416" type="line"/>
+      <point x="91" y="93" type="line" smooth="yes"/>
+      <point x="91" y="17" smooth="yes"/>
+      <point x="133" y="-12" smooth="yes"/>
+      <point x="188" y="-12" type="curve" smooth="yes"/>
+      <point x="227" y="-12"/>
+      <point x="264" y="1"/>
+      <point x="294" y="15" type="curve"/>
+      <point x="294" y="43" type="line"/>
+      <point x="273" y="35" smooth="yes"/>
+      <point x="248" y="28" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr00">
+      <hstem pos="-12" width="40" />
+      <hstem pos="416" width="36" />
+      <hstem pos="549" width="-20" />
+      <vstem pos="91" width="84" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>
