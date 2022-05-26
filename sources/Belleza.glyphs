@@ -2,7 +2,7 @@
 .appVersion = "3108";
 .formatVersion = 3;
 DisplayStrings = (
-"AÁĂǍÂÄÀĀĄÅǺÃÆǼBCĆČÇĈĊDÐĎĐEÉĔĚÊËĖÈĒĘFGĞĜĢĠHĦĤIĲÍĬÎÏİÌĪĮĨJĴKĶLĹĽĻĿŁMNŃŇŅÑŊOÓŎÔÖÒŐŌØǾÕŒPÞQRŔŘŖSŚŠŞŜȘTŦŤŢȚUÚŬÛÜÙŰŪŲŮŨVWẂŴẄẀXYÝŶŸỲZŹŽŻaáăǎâäàāąåǻãæǽbcćčçĉċdðďđeéĕěêëėèēęfgğĝģġhħĥiıíĭîï/idotaccent ìĳīįĩjȷĵkķĸlĺľļŀłmnńŉňņñŋoóŏôöòőōøǿõœpþqrŕřŗsśšşŝșßtŧťţțuúŭûüùűūųůũvwẃŵẅẁxyýŷÿỳzźžżﬁﬂªºΔΩμπ0123456789¹²³⁄½¼¾/.notdef  ŀl  .,:;…!¡?¿·•*#///backslash/periodcentered.loclCAT/periodcentered.loclCAT.case -–—_(){}[]‚„“”‘’«»‹›\"'ƒ/apple @&¶§©®™°|¦†ℓ‡℮¢¤$€₣₤£¥+−×÷=≠><≥≤±≈~¬^∞∫Ω∆∏∑√∂µ%‰◊̈̇̀́̋/caroncomb.alt ̧̨̦̂̌̆̊̃̄¨˙`´˝ˆˇ˘˚˜¯¸˛/dieresiscomb.case/dotaccentcomb.case/gravecomb.case/acutecomb.case/hungarumlautcomb.case/circumflexcomb.case/caroncomb.case/brevecomb.case/ringcomb.case/tildecomb.case/macroncomb.case/eslash/ethbar/ringacutecomb/ringacutecomb.case"
+".…‚„“”‘’\"'"
 );
 classes = (
 {
@@ -26,6 +26,19 @@ value = (
 0,
 3
 );
+},
+{
+name = fsType;
+value = (
+);
+},
+{
+name = "Use Line Breaks";
+value = 1;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 date = "2022-05-26 14:51:32 +0000";
@@ -86,7 +99,7 @@ feature kern {
       pos \\Atilde \\V -25;
       pos \\Atilde \\W -20;
       pos \\F \\AE -140;
-      pos \\F \\dotlessi -20;
+      pos \\F \\idotless -20;
       pos \\F \\idieresis 65;
       pos \\F \\igrave 50;
       pos \\F \\comma -92;
@@ -100,7 +113,7 @@ feature kern {
       pos \\P \\idieresis 43;
       pos \\P \\comma -129;
       pos \\T \\AE -100;
-      pos \\T \\dotlessi -100;
+      pos \\T \\idotless -100;
       pos \\T \\idieresis 20;
       pos \\T \\igrave 20;
       pos \\T \\colon -55;
@@ -356,7 +369,8 @@ feature liga {
       sub \\f \\l by \\fl;
     } liga_latn_1;
 
-} liga;";
+} liga;
+";
 name = Prefix;
 }
 );
@@ -518,11 +532,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 928;
+value = 1171;
 },
 {
 name = winDescent;
-value = 224;
+value = 312;
 },
 {
 name = strikeoutPosition;
@@ -15000,7 +15014,7 @@ unicode = 297;
 },
 {
 glyphname = j;
-lastChange = "2022-05-26 15:25:22 +0000";
+lastChange = "2022-05-26 15:53:11 +0000";
 layers = (
 {
 background = {
@@ -21707,14 +21721,14 @@ unicode = 185;
 },
 {
 glyphname = twosuperior;
-lastChange = "2022-05-26 15:25:22 +0000";
+lastChange = "2022-05-26 15:55:44 +0000";
 layers = (
 {
 layerId = master01;
 shapes = (
 {
 alignment = -1;
-pos = (-27,270);
+pos = (-27,269);
 ref = two;
 scale = (0.7011,0.7);
 }
@@ -21785,6 +21799,51 @@ width = 300;
 }
 );
 unicode = 179;
+},
+{
+glyphname = foursuperior;
+lastChange = "2022-05-26 15:56:24 +0000";
+layers = (
+{
+guides = (
+{
+pos = (135,268);
+},
+{
+pos = (124,662);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(195,594,l),
+(195,393,l),
+(68,393,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(254,268,l),
+(254,347,l),
+(307,347,l),
+(307,393,l),
+(254,393,l),
+(254,662,l),
+(198,662,l),
+(12,374,l),
+(12,347,l),
+(195,347,l),
+(195,268,l)
+);
+}
+);
+width = 327;
+}
+);
+unicode = 8308;
 },
 {
 glyphname = fraction;
@@ -22064,7 +22123,7 @@ unicode = 160;
 },
 {
 glyphname = period;
-lastChange = "2022-05-26 15:25:31 +0000";
+lastChange = "2022-05-26 15:58:06 +0000";
 layers = (
 {
 layerId = master01;
@@ -22074,18 +22133,18 @@ closed = 1;
 nodes = (
 (156,-11,o),
 (181,13,o),
-(181,44,c),
+(181,44,cs),
 (181,75,o),
 (156,100,o),
-(125,100,c),
+(125,100,cs),
 (94,100,o),
 (70,75,o),
-(70,44,c,{
+(70,44,cs,{
 name = hr00;
 }),
 (70,13,o),
 (94,-11,o),
-(125,-11,c)
+(125,-11,cs)
 );
 }
 );
@@ -22234,22 +22293,24 @@ unicode = 59;
 },
 {
 glyphname = ellipsis;
-lastChange = "2022-05-26 15:25:22 +0000";
+lastChange = "2022-05-26 15:58:33 +0000";
 layers = (
 {
 layerId = master01;
 shapes = (
 {
+pos = (200,0);
 ref = period;
 },
 {
+pos = (400,0);
 ref = period;
 },
 {
 ref = period;
 }
 );
-width = 750;
+width = 651;
 }
 );
 unicode = 8230;
@@ -23095,12 +23156,13 @@ unicode = 8218;
 },
 {
 glyphname = quotedblbase;
-lastChange = "2022-05-26 15:25:22 +0000";
+lastChange = "2022-05-26 15:59:08 +0000";
 layers = (
 {
 layerId = master01;
 shapes = (
 {
+pos = (160,0);
 ref = comma;
 },
 {
@@ -23114,12 +23176,13 @@ unicode = 8222;
 },
 {
 glyphname = quotedblleft;
-lastChange = "2022-05-26 15:25:22 +0000";
+lastChange = "2022-05-26 15:59:13 +0000";
 layers = (
 {
 layerId = master01;
 shapes = (
 {
+pos = (160,0);
 ref = quoteleft;
 },
 {
@@ -23133,12 +23196,13 @@ unicode = 8220;
 },
 {
 glyphname = quotedblright;
-lastChange = "2022-05-26 15:25:22 +0000";
+lastChange = "2022-05-26 15:59:16 +0000";
 layers = (
 {
 layerId = master01;
 shapes = (
 {
+pos = (160,0);
 ref = quoteright;
 },
 {
@@ -27898,10 +27962,10 @@ value = Belleza;
 kerningLTR = {
 master01 = {
 ldot = {
+"@MMK_R_l" = 70;
 h = 70;
 l = 70;
 lslash = 70;
-"@MMK_R_l" = 70;
 };
 };
 };
@@ -27970,7 +28034,7 @@ key = licenses;
 values = (
 {
 language = dflt;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL.";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
 }
 );
 },
