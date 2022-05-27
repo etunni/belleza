@@ -1,9 +1,6 @@
 {
 .appVersion = "3108";
 .formatVersion = 3;
-DisplayStrings = (
-".…‚„“”‘’\"'"
-);
 classes = (
 {
 automatic = 1;
@@ -15014,7 +15011,7 @@ unicode = 297;
 },
 {
 glyphname = j;
-lastChange = "2022-05-26 15:53:11 +0000";
+lastChange = "2022-05-26 16:09:55 +0000";
 layers = (
 {
 background = {
@@ -20956,9 +20953,15 @@ unicode = 380;
 },
 {
 glyphname = fi;
-lastChange = "2022-05-26 15:25:22 +0000";
+lastChange = "2022-05-26 16:03:13 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+pos = (283,0);
+}
+);
 layerId = master01;
 shapes = (
 {
@@ -20983,9 +20986,15 @@ unicode = 64257;
 },
 {
 glyphname = fl;
-lastChange = "2022-05-26 15:25:22 +0000";
+lastChange = "2022-05-26 16:03:15 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+pos = (283.5,0);
+}
+);
 layerId = master01;
 shapes = (
 {
